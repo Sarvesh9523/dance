@@ -48,3 +48,49 @@
   animation: cyberLeave 0.25s ease-in forwards;
 }
 
+
+.nav-container {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-item {
+  position: relative;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition: color 0.2s ease;
+  z-index: 2;
+}
+
+.nav-item:hover {
+  color: #00f6ff;
+}
+
+.nav-highlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: rgba(0, 246, 255, 0.18);
+  border-radius: 10px;
+  width: 0;
+  opacity: 0;
+  transition: 
+    width 0.25s ease,
+    transform 0.25s ease,
+    opacity 0.25s ease;
+}
+.nav-highlight {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background: rgba(0, 246, 255, 0.18);
+  border-radius: 10px;
+  transition:
+    width 0.25s ease,
+    transform 0.25s ease,
+    opacity 0.25s ease;
+  z-index: 1;
+}
+
