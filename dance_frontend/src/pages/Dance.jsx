@@ -208,7 +208,7 @@ const DanceAcademy = () => {
 
                         <div className="flex flex-wrap justify-center gap-6">
                             {/* Instagram */}
-                            <a aria-label="Instagram" className="text-gray-400 hover:text-[#00f6ff] transition-colors hover:[#00f6ff]" href="#">
+                            <a aria-label="Instagram" className="text-gray-400 hover:text-[#00f6ff] transition-colors" href="#">
                                 <svg
                                     fill="none"
                                     height="24"
